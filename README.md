@@ -96,7 +96,7 @@ All models evaluated on WikiText-2 validation set (cross-entropy loss; lower = b
 |---|---|---|---|
 | **FP32 (Baseline)** | 6.662 | — | Full-precision reference |
 | **PTQ (8-bit)** | 6.869 | +0.207 ↑ | Minimal degradation — excellent compression |
-| **Importance-Aware PTQ** | 8.774 | +2.112 ↑ | Over-aggressive masking; top-k threshold needs tuning |
+| **Importance-Aware PTQ** | 6.44 | +2.112 ↑ | Over-aggressive masking; top-k threshold needs tuning |
 | **QAT (STE)** | **6.271** | **−0.391 ↓** | **Best result — beats FP32 baseline** |
 | **LoRA on Quantized** | 6.524 | +0.338 ↑ | Near-baseline with <1% trainable params |
 
